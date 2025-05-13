@@ -22,5 +22,9 @@ function update (id, data) {
 function remove (id) {
   return destroy(`restaurants/${id}`)
 }
+// TODO: [Octubre 2024]
+function getOrdersFromRestaurant (id) {
+  return get(`restaurants/${id}/orders`)
+}
 
-export { getAll, getDetail, getRestaurantCategories, create, update, remove }
+export { getAll, getDetail, getRestaurantCategories, create, update, remove, getOrdersFromRestaurant }
