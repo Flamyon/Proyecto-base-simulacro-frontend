@@ -56,11 +56,6 @@ module.exports = {
         ],
         defaultValue: 'offline'
       },
-      // Solution
-      pinnedAt: {
-        type: Sequelize.DATE,
-        allowNull: true
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
